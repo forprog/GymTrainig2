@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0879bf6f-af25-4520-a31d-40a8221ec29f">
+  <name>Тренировки2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тренировки 2</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="e84f2bef-b677-4954-93d0-67c23d28e580"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="664ec8d2-9a1c-4a45-8f66-e7f5f6c77fce"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="148e0453-5a3c-4b41-8fa0-3d8d50acb57d"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="cb0441f5-7338-41df-9044-e2df409e1937"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="bd2a3c20-4312-4a18-950f-0945c8a6dc0e"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="fdc2ea73-ba4a-464a-9529-324732c60147"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="e76bb1ad-f9d8-40de-aab1-57b0362681e1"/>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
+  <languages uuid="9cbfe6f1-67ba-45b2-84f4-cdf9b77d3ba6">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Пользователи</catalogs>
+</mdclass:Configuration>
