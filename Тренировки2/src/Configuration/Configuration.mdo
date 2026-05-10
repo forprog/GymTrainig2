@@ -14,7 +14,7 @@
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="e76bb1ad-f9d8-40de-aab1-57b0362681e1"/>
   <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
-  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <usedMobileApplicationFunctionalities>
     <functionality>
@@ -39,5 +39,9 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <sessionParameters>SessionParameter.ПользовательИспользование</sessionParameters>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <commonModules>CommonModule.ПользователиСервер</commonModules>
+  <commonAttributes>CommonAttribute.Пользователь</commonAttributes>
   <catalogs>Catalog.Пользователи</catalogs>
 </mdclass:Configuration>
