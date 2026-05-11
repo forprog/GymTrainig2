@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90d21845-e1e4-4dea-8d0e-c59a9f364aee">
+  <producedTypes>
+    <objectType typeId="836f29e7-ae19-40c2-91e7-d06a9cc5eda2" valueTypeId="a9a51276-f660-41e8-8b4b-adcd09bfba04"/>
+    <refType typeId="9cc407e2-e741-47ef-bad3-ad8d59c0f548" valueTypeId="3715c6fd-c886-4524-98d1-44f38fed04fe"/>
+    <selectionType typeId="c8e66196-bbf6-4fd6-82f5-ea0f41c8663c" valueTypeId="513a4b78-5488-4731-aa1a-a65b972481af"/>
+    <listType typeId="88e8a335-cf21-4be8-9134-2bfa97aa624c" valueTypeId="a3f3e1f8-a6fc-4783-b5a6-6d05d0e1b191"/>
+    <managerType typeId="26bffa44-bb51-4095-b20f-aab6aeaa394d" valueTypeId="56f9281b-33b2-4aff-aecf-b6296ff284dc"/>
+  </producedTypes>
+  <name>Тренировка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тренировка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Тренировка.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

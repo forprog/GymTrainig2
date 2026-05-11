@@ -41,7 +41,11 @@
   </languages>
   <sessionParameters>SessionParameter.ПользовательИспользование</sessionParameters>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.Пользователь</roles>
+  <commonModules>CommonModule.ПользователиВызовСервера</commonModules>
   <commonModules>CommonModule.ПользователиСервер</commonModules>
   <commonAttributes>CommonAttribute.Пользователь</commonAttributes>
   <catalogs>Catalog.Пользователи</catalogs>
+  <documents>Document.Тренировка</documents>
 </mdclass:Configuration>
