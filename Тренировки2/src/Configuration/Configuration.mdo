@@ -41,8 +41,10 @@
   </languages>
   <sessionParameters>SessionParameter.ПользовательИспользование</sessionParameters>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.ОткрытиеВнешнихОтчетовОбработок</roles>
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.Пользователь</roles>
+  <commonModules>CommonModule.ИнтерфейсныеФункцииКлиентСервер</commonModules>
   <commonModules>CommonModule.ПользователиВызовСервера</commonModules>
   <commonModules>CommonModule.ПользователиСервер</commonModules>
   <commonAttributes>CommonAttribute.Пользователь</commonAttributes>
