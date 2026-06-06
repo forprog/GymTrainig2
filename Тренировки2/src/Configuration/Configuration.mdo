@@ -49,5 +49,6 @@
   <commonModules>CommonModule.ПользователиСервер</commonModules>
   <commonAttributes>CommonAttribute.Пользователь</commonAttributes>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Упражнения</catalogs>
   <documents>Document.Тренировка</documents>
 </mdclass:Configuration>
