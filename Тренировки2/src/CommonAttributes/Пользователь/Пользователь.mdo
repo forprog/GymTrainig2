@@ -13,8 +13,16 @@
   <dataHistory>Use</dataHistory>
   <fillValue xsi:type="core:UndefinedValue"/>
   <content>
+    <metadata>Catalog.Упражнения</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>Document.Тренировка</metadata>
     <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.ПрограммыТренировок</metadata>
+    <use>DontUse</use>
   </content>
   <autoUse>DontUse</autoUse>
   <separatedDataUse>IndependentlyAndSimultaneously</separatedDataUse>
