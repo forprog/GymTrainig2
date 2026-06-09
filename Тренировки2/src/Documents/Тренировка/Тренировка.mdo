@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90d21845-e1e4-4dea-8d0e-c59a9f364aee">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90d21845-e1e4-4dea-8d0e-c59a9f364aee">
   <producedTypes>
     <objectType typeId="836f29e7-ae19-40c2-91e7-d06a9cc5eda2" valueTypeId="a9a51276-f660-41e8-8b4b-adcd09bfba04"/>
     <refType typeId="9cc407e2-e741-47ef-bad3-ad8d59c0f548" valueTypeId="3715c6fd-c886-4524-98d1-44f38fed04fe"/>
@@ -25,4 +25,101 @@
   <autonumbering>true</autonumbering>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="294f415c-fe6f-4321-9988-c815b19d8558">
+    <name>Программа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПрограммыТренировок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="47389a8b-313e-4038-9631-ddebe07eb88c">
+    <name>НомерДня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер дня</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="80255c3c-963b-4e3e-b854-8488eeef56b6">
+    <producedTypes>
+      <objectType typeId="3a8dbd15-214f-4b21-906a-e53ebb44de54" valueTypeId="9f52e579-7d4c-4874-9e49-515936c8efe8"/>
+      <rowType typeId="53eb55ee-11c2-45c1-bc75-6d890eba5382" valueTypeId="d84d63fb-9b82-456d-88d6-04b921ec4608"/>
+    </producedTypes>
+    <name>ВыполненныеУпражнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполненные упражнения</value>
+    </synonym>
+    <attributes uuid="000825cb-07b5-49df-a137-8e934b1aab5a">
+      <name>Упражение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Упражение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Упражнения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b69a8b02-2d87-4bc0-b3a1-fc2d41f0a40a">
+      <name>КоличествоПовторений</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество повторений</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7c0b95be-6a09-4ea6-a19b-d0f9127690a8">
+      <name>Вес</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вес, кг</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
 </mdclass:Document>
